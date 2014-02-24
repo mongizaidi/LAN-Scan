@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39352B7E18BB936D00F68217 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39352B7D18BB936D00F68217 /* Foundation.framework */; };
+		39352B8018BB936D00F68217 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39352B7F18BB936D00F68217 /* CoreGraphics.framework */; };
+		39352B8218BB936D00F68217 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39352B8118BB936D00F68217 /* UIKit.framework */; };
+		39352B8818BB936D00F68217 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39352B8618BB936D00F68217 /* InfoPlist.strings */; };
+		39352B8A18BB936D00F68217 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39352B8918BB936D00F68217 /* main.m */; };
+		39352B8E18BB936D00F68217 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39352B8D18BB936D00F68217 /* AppDelegate.m */; };
+		39352B9118BB936D00F68217 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39352B8F18BB936D00F68217 /* Main_iPhone.storyboard */; };
+		39352B9418BB936D00F68217 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39352B9218BB936D00F68217 /* Main_iPad.storyboard */; };
+		39352B9718BB936D00F68217 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39352B9618BB936D00F68217 /* ViewController.m */; };
+		39352B9918BB936D00F68217 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39352B9818BB936D00F68217 /* Images.xcassets */; };
+		39352BA018BB936D00F68217 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39352B9F18BB936D00F68217 /* XCTest.framework */; };
+		39352BA118BB936D00F68217 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39352B7D18BB936D00F68217 /* Foundation.framework */; };
+		39352BA218BB936D00F68217 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39352B8118BB936D00F68217 /* UIKit.framework */; };
+		39352BAA18BB936D00F68217 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39352BA818BB936D00F68217 /* InfoPlist.strings */; };
+		39352BAC18BB936D00F68217 /* LAN_ScanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39352BAB18BB936D00F68217 /* LAN_ScanTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39352BA318BB936D00F68217 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39352B7218BB936D00F68217 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39352B7918BB936D00F68217;
+			remoteInfo = "LAN Scan";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39352B7A18BB936D00F68217 /* LAN Scan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LAN Scan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39352B7D18BB936D00F68217 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		39352B7F18BB936D00F68217 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		39352B8118BB936D00F68217 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		39352B8518BB936D00F68217 /* LAN Scan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LAN Scan-Info.plist"; sourceTree = "<group>"; };
+		39352B8718BB936D00F68217 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		39352B8918BB936D00F68217 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		39352B8B18BB936D00F68217 /* LAN Scan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LAN Scan-Prefix.pch"; sourceTree = "<group>"; };
+		39352B8C18BB936D00F68217 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		39352B8D18BB936D00F68217 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		39352B9018BB936D00F68217 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		39352B9318BB936D00F68217 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		39352B9518BB936D00F68217 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		39352B9618BB936D00F68217 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		39352B9818BB936D00F68217 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		39352B9E18BB936D00F68217 /* LAN ScanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LAN ScanTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39352B9F18BB936D00F68217 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		39352BA718BB936D00F68217 /* LAN ScanTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LAN ScanTests-Info.plist"; sourceTree = "<group>"; };
+		39352BA918BB936D00F68217 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		39352BAB18BB936D00F68217 /* LAN_ScanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LAN_ScanTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39352B7718BB936D00F68217 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39352B8018BB936D00F68217 /* CoreGraphics.framework in Frameworks */,
+				39352B8218BB936D00F68217 /* UIKit.framework in Frameworks */,
+				39352B7E18BB936D00F68217 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39352B9B18BB936D00F68217 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39352BA018BB936D00F68217 /* XCTest.framework in Frameworks */,
+				39352BA218BB936D00F68217 /* UIKit.framework in Frameworks */,
+				39352BA118BB936D00F68217 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39352B7118BB936D00F68217 = {
+			isa = PBXGroup;
+			children = (
+				39352B8318BB936D00F68217 /* LAN Scan */,
+				39352BA518BB936D00F68217 /* LAN ScanTests */,
+				39352B7C18BB936D00F68217 /* Frameworks */,
+				39352B7B18BB936D00F68217 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39352B7B18BB936D00F68217 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39352B7A18BB936D00F68217 /* LAN Scan.app */,
+				39352B9E18BB936D00F68217 /* LAN ScanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39352B7C18BB936D00F68217 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39352B7D18BB936D00F68217 /* Foundation.framework */,
+				39352B7F18BB936D00F68217 /* CoreGraphics.framework */,
+				39352B8118BB936D00F68217 /* UIKit.framework */,
+				39352B9F18BB936D00F68217 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39352B8318BB936D00F68217 /* LAN Scan */ = {
+			isa = PBXGroup;
+			children = (
+				39352B8C18BB936D00F68217 /* AppDelegate.h */,
+				39352B8D18BB936D00F68217 /* AppDelegate.m */,
+				39352B8F18BB936D00F68217 /* Main_iPhone.storyboard */,
+				39352B9218BB936D00F68217 /* Main_iPad.storyboard */,
+				39352B9518BB936D00F68217 /* ViewController.h */,
+				39352B9618BB936D00F68217 /* ViewController.m */,
+				39352B9818BB936D00F68217 /* Images.xcassets */,
+				39352B8418BB936D00F68217 /* Supporting Files */,
+			);
+			path = "LAN Scan";
+			sourceTree = "<group>";
+		};
+		39352B8418BB936D00F68217 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39352B8518BB936D00F68217 /* LAN Scan-Info.plist */,
+				39352B8618BB936D00F68217 /* InfoPlist.strings */,
+				39352B8918BB936D00F68217 /* main.m */,
+				39352B8B18BB936D00F68217 /* LAN Scan-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39352BA518BB936D00F68217 /* LAN ScanTests */ = {
+			isa = PBXGroup;
+			children = (
+				39352BAB18BB936D00F68217 /* LAN_ScanTests.m */,
+				39352BA618BB936D00F68217 /* Supporting Files */,
+			);
+			path = "LAN ScanTests";
+			sourceTree = "<group>";
+		};
+		39352BA618BB936D00F68217 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39352BA718BB936D00F68217 /* LAN ScanTests-Info.plist */,
+				39352BA818BB936D00F68217 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39352B7918BB936D00F68217 /* LAN Scan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39352BAF18BB936D00F68217 /* Build configuration list for PBXNativeTarget "LAN Scan" */;
+			buildPhases = (
+				39352B7618BB936D00F68217 /* Sources */,
+				39352B7718BB936D00F68217 /* Frameworks */,
+				39352B7818BB936D00F68217 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LAN Scan";
+			productName = "LAN Scan";
+			productReference = 39352B7A18BB936D00F68217 /* LAN Scan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39352B9D18BB936D00F68217 /* LAN ScanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39352BB218BB936D00F68217 /* Build configuration list for PBXNativeTarget "LAN ScanTests" */;
+			buildPhases = (
+				39352B9A18BB936D00F68217 /* Sources */,
+				39352B9B18BB936D00F68217 /* Frameworks */,
+				39352B9C18BB936D00F68217 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39352BA418BB936D00F68217 /* PBXTargetDependency */,
+			);
+			name = "LAN ScanTests";
+			productName = "LAN ScanTests";
+			productReference = 39352B9E18BB936D00F68217 /* LAN ScanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39352B7218BB936D00F68217 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Smart Touch";
+				TargetAttributes = {
+					39352B9D18BB936D00F68217 = {
+						TestTargetID = 39352B7918BB936D00F68217;
+					};
+				};
+			};
+			buildConfigurationList = 39352B7518BB936D00F68217 /* Build configuration list for PBXProject "LAN Scan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39352B7118BB936D00F68217;
+			productRefGroup = 39352B7B18BB936D00F68217 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39352B7918BB936D00F68217 /* LAN Scan */,
+				39352B9D18BB936D00F68217 /* LAN ScanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39352B7818BB936D00F68217 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39352B9418BB936D00F68217 /* Main_iPad.storyboard in Resources */,
+				39352B9918BB936D00F68217 /* Images.xcassets in Resources */,
+				39352B9118BB936D00F68217 /* Main_iPhone.storyboard in Resources */,
+				39352B8818BB936D00F68217 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39352B9C18BB936D00F68217 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39352BAA18BB936D00F68217 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39352B7618BB936D00F68217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39352B9718BB936D00F68217 /* ViewController.m in Sources */,
+				39352B8E18BB936D00F68217 /* AppDelegate.m in Sources */,
+				39352B8A18BB936D00F68217 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39352B9A18BB936D00F68217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39352BAC18BB936D00F68217 /* LAN_ScanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39352BA418BB936D00F68217 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39352B7918BB936D00F68217 /* LAN Scan */;
+			targetProxy = 39352BA318BB936D00F68217 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39352B8618BB936D00F68217 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39352B8718BB936D00F68217 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		39352B8F18BB936D00F68217 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39352B9018BB936D00F68217 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		39352B9218BB936D00F68217 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39352B9318BB936D00F68217 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		39352BA818BB936D00F68217 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39352BA918BB936D00F68217 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39352BAD18BB936D00F68217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39352BAE18BB936D00F68217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39352BB018BB936D00F68217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LAN Scan/LAN Scan-Prefix.pch";
+				INFOPLIST_FILE = "LAN Scan/LAN Scan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		39352BB118BB936D00F68217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LAN Scan/LAN Scan-Prefix.pch";
+				INFOPLIST_FILE = "LAN Scan/LAN Scan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		39352BB318BB936D00F68217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LAN Scan.app/LAN Scan";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LAN Scan/LAN Scan-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LAN ScanTests/LAN ScanTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		39352BB418BB936D00F68217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LAN Scan.app/LAN Scan";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LAN Scan/LAN Scan-Prefix.pch";
+				INFOPLIST_FILE = "LAN ScanTests/LAN ScanTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39352B7518BB936D00F68217 /* Build configuration list for PBXProject "LAN Scan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39352BAD18BB936D00F68217 /* Debug */,
+				39352BAE18BB936D00F68217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39352BAF18BB936D00F68217 /* Build configuration list for PBXNativeTarget "LAN Scan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39352BB018BB936D00F68217 /* Debug */,
+				39352BB118BB936D00F68217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		39352BB218BB936D00F68217 /* Build configuration list for PBXNativeTarget "LAN ScanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39352BB318BB936D00F68217 /* Debug */,
+				39352BB418BB936D00F68217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39352B7218BB936D00F68217 /* Project object */;
+}
