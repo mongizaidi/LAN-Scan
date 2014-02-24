@@ -26,6 +26,7 @@
 		39352BBC18BB939B00F68217 /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 39352BB818BB939B00F68217 /* SimplePing.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		39352BBD18BB939B00F68217 /* SimplePingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 39352BBA18BB939B00F68217 /* SimplePingHelper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		39352BC018BB93CD00F68217 /* Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 39352BBF18BB93CD00F68217 /* Device.m */; };
+		39DAC71C18BBA73D005B6BC7 /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 39DAC71B18BBA73D005B6BC7 /* screenshot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		39352BBA18BB939B00F68217 /* SimplePingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePingHelper.m; sourceTree = "<group>"; };
 		39352BBE18BB93CD00F68217 /* Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Device.h; sourceTree = "<group>"; };
 		39352BBF18BB93CD00F68217 /* Device.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Device.m; sourceTree = "<group>"; };
+		39DAC71B18BBA73D005B6BC7 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 		39352B8418BB936D00F68217 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				39DAC71B18BBA73D005B6BC7 /* screenshot.png */,
 				39352B8518BB936D00F68217 /* LAN Scan-Info.plist */,
 				39352B8618BB936D00F68217 /* InfoPlist.strings */,
 				39352B8918BB936D00F68217 /* main.m */,
@@ -255,6 +258,7 @@
 				39352B9918BB936D00F68217 /* Images.xcassets in Resources */,
 				39352B9118BB936D00F68217 /* Main_iPhone.storyboard in Resources */,
 				39352B8818BB936D00F68217 /* InfoPlist.strings in Resources */,
+				39DAC71C18BBA73D005B6BC7 /* screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +502,7 @@
 				39352BB118BB936D00F68217 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		39352BB218BB936D00F68217 /* Build configuration list for PBXNativeTarget "LAN ScanTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +511,7 @@
 				39352BB418BB936D00F68217 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
