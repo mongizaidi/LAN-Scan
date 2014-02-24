@@ -22,6 +22,10 @@
 		39352BA218BB936D00F68217 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39352B8118BB936D00F68217 /* UIKit.framework */; };
 		39352BAA18BB936D00F68217 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39352BA818BB936D00F68217 /* InfoPlist.strings */; };
 		39352BAC18BB936D00F68217 /* LAN_ScanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39352BAB18BB936D00F68217 /* LAN_ScanTests.m */; };
+		39352BBB18BB939B00F68217 /* ScanLAN.m in Sources */ = {isa = PBXBuildFile; fileRef = 39352BB618BB939B00F68217 /* ScanLAN.m */; };
+		39352BBC18BB939B00F68217 /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 39352BB818BB939B00F68217 /* SimplePing.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		39352BBD18BB939B00F68217 /* SimplePingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 39352BBA18BB939B00F68217 /* SimplePingHelper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		39352BC018BB93CD00F68217 /* Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 39352BBF18BB93CD00F68217 /* Device.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,14 @@
 		39352BA718BB936D00F68217 /* LAN ScanTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LAN ScanTests-Info.plist"; sourceTree = "<group>"; };
 		39352BA918BB936D00F68217 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		39352BAB18BB936D00F68217 /* LAN_ScanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LAN_ScanTests.m; sourceTree = "<group>"; };
+		39352BB518BB939B00F68217 /* ScanLAN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanLAN.h; sourceTree = "<group>"; };
+		39352BB618BB939B00F68217 /* ScanLAN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanLAN.m; sourceTree = "<group>"; };
+		39352BB718BB939B00F68217 /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
+		39352BB818BB939B00F68217 /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
+		39352BB918BB939B00F68217 /* SimplePingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePingHelper.h; sourceTree = "<group>"; };
+		39352BBA18BB939B00F68217 /* SimplePingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePingHelper.m; sourceTree = "<group>"; };
+		39352BBE18BB93CD00F68217 /* Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Device.h; sourceTree = "<group>"; };
+		39352BBF18BB93CD00F68217 /* Device.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Device.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +126,14 @@
 		39352B8318BB936D00F68217 /* LAN Scan */ = {
 			isa = PBXGroup;
 			children = (
+				39352BB518BB939B00F68217 /* ScanLAN.h */,
+				39352BB618BB939B00F68217 /* ScanLAN.m */,
+				39352BB718BB939B00F68217 /* SimplePing.h */,
+				39352BB818BB939B00F68217 /* SimplePing.m */,
+				39352BB918BB939B00F68217 /* SimplePingHelper.h */,
+				39352BBA18BB939B00F68217 /* SimplePingHelper.m */,
+				39352BBE18BB93CD00F68217 /* Device.h */,
+				39352BBF18BB93CD00F68217 /* Device.m */,
 				39352B8C18BB936D00F68217 /* AppDelegate.h */,
 				39352B8D18BB936D00F68217 /* AppDelegate.m */,
 				39352B8F18BB936D00F68217 /* Main_iPhone.storyboard */,
@@ -253,9 +273,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39352BBB18BB939B00F68217 /* ScanLAN.m in Sources */,
 				39352B9718BB936D00F68217 /* ViewController.m in Sources */,
 				39352B8E18BB936D00F68217 /* AppDelegate.m in Sources */,
+				39352BBC18BB939B00F68217 /* SimplePing.m in Sources */,
 				39352B8A18BB936D00F68217 /* main.m in Sources */,
+				39352BC018BB93CD00F68217 /* Device.m in Sources */,
+				39352BBD18BB939B00F68217 /* SimplePingHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
