@@ -2,12 +2,12 @@
 //  ViewController.h
 //  LAN Scan
 //
-//  Created by iMac1 on 24/02/14.
+//  Created by Mongi Zaidi on 24 February 2014.
 //  Copyright (c) 2014 Smart Touch. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import "ScanLAN.h"
+@interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, ScanLANDelegate>
 
 @end
